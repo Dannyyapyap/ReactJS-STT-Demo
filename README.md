@@ -9,8 +9,7 @@
 1) API token, which can be generated on https://dev.ins8.ai by signing up and generating one on the Dashboard page
 2) Enter your API token in the input field and you can start Upload File or Record to obtain the STT transcript
 
-## Environment variable
-.env-cmdrc.json
+## Environment variable (.env-cmdrc.json)
 By default, the environment provided will be pointing to Ins8.ai deployed cloud environment
 For custom environment(on-prem deployment etc), change the url in the file to point to it
 
