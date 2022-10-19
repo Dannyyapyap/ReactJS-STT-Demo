@@ -1,4 +1,2 @@
-npm install
-npm run build
 docker build -t ins8-demo .
-docker run --rm -p 3000:3000 ins8-demo
+docker run --rm --env-file ./.env -p 8080:80 --name react-ins8 ins8-demo
