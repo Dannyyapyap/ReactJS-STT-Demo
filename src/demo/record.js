@@ -79,7 +79,7 @@ export default function Record({
       }
     } else {
       alert(
-        `API Token not detected, generate one on the Dashboard.\nhttps://dev.ins8.ai/dashboard`
+        `API Token not detected, generate one and paste it on the input,`
       );
     }
   };

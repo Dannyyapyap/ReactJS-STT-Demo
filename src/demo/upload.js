@@ -19,7 +19,7 @@ export default function Upload({
   const handleClick = (e) => {
     if (token === "") {
       e.preventDefault();
-      alert(`API Token not detected, generate one on the Dashboard.\nhttps://dev.ins8.ai/dashboard`)
+      alert(`API Token not detected, generate one and paste it on the input,`)
     }
   };
 

@@ -1,5 +1,6 @@
+import { AUDIO_UPLOAD_URL } from "../connection";
+
 export async function DemoPOST(access, payload, featuresSelected) {
-  const AUDIO_UPLOAD_URL = "https://stt.ins8.ai/api/v1/stt/recognize";
 
   let config = `&language=en-sg`;
   if (featuresSelected.length > 0) {

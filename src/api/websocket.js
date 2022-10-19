@@ -1,4 +1,5 @@
 import { TranscriptionRecord } from "../demo/components";
+import { WEBSOCKET_URL } from "../connection";
 
 export async function initWebsocket(
   access,
@@ -63,8 +64,6 @@ export async function initWebsocket(
     var recordedChunks = [];
     var blobToFile;
     var audioFile = [];
-
-    const WEBSOCKET_URL ="wss://stt.ins8.ai/api/v1/stt/websocket/recognize";
 
     let config = `&language=en-sg`;
     if (featuresSelected.length > 0) {
