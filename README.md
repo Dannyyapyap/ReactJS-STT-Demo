@@ -13,8 +13,9 @@
 By default, the environment provided will be pointing to Ins8.ai deployed cloud environment.
 For custom environment(on-prem deployment etc), change the url in the file to point to it.
 
-### Build Docker Image and run it in a container (Runs in port 3000)
+## Build Docker Image and run it in a container (Runs in port 3000)
 `sh build_image.sh`
+
 Run this command in terminal- GIT Bash preferably.
 Image of the project build will be served on port 3000
 1) Ensure that Docker is already running.
