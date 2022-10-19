@@ -13,9 +13,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "env-cmd -e development react-scripts start",
+    "start": "env-cmd -e production react-scripts start",
     "build": "env-cmd -e production react-scripts build",
-    "test": "env-cmd -e test react-scripts test",
+    "test": "env-cmd -e production react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
